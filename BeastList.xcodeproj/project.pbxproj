@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		2313AAE61FC145F200A19977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313AAE51FC145F200A19977 /* AppDelegate.swift */; };
-		2313AAE81FC145F200A19977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313AAE71FC145F200A19977 /* ViewController.swift */; };
+		2313AAE81FC145F200A19977 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313AAE71FC145F200A19977 /* FirstTableViewController.swift */; };
 		2313AAEB1FC145F200A19977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2313AAE91FC145F200A19977 /* Main.storyboard */; };
 		2313AAEE1FC145F200A19977 /* BeastList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2313AAEC1FC145F200A19977 /* BeastList.xcdatamodeld */; };
 		2313AAF01FC145F200A19977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2313AAEF1FC145F200A19977 /* Assets.xcassets */; };
 		2313AAF31FC145F200A19977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2313AAF11FC145F200A19977 /* LaunchScreen.storyboard */; };
+		2313AAFB1FC14A3800A19977 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313AAFA1FC14A3800A19977 /* CustomCell.swift */; };
+		2313AAFD1FC14A6600A19977 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313AAFC1FC14A6600A19977 /* SecondTableViewController.swift */; };
+		2313AAFF1FC14A9F00A19977 /* SecondCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313AAFE1FC14A9F00A19977 /* SecondCellController.swift */; };
+		2313AB011FC14AD900A19977 /* AddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2313AB001FC14AD900A19977 /* AddingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2313AAE21FC145F200A19977 /* BeastList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeastList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2313AAE51FC145F200A19977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2313AAE71FC145F200A19977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2313AAE71FC145F200A19977 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		2313AAEA1FC145F200A19977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2313AAED1FC145F200A19977 /* BeastList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeastList.xcdatamodel; sourceTree = "<group>"; };
 		2313AAEF1FC145F200A19977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2313AAF21FC145F200A19977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2313AAF41FC145F200A19977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2313AAFA1FC14A3800A19977 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2313AAFC1FC14A6600A19977 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		2313AAFE1FC14A9F00A19977 /* SecondCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCellController.swift; sourceTree = "<group>"; };
+		2313AB001FC14AD900A19977 /* AddingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				2313AAE51FC145F200A19977 /* AppDelegate.swift */,
-				2313AAE71FC145F200A19977 /* ViewController.swift */,
+				2313AAE71FC145F200A19977 /* FirstTableViewController.swift */,
+				2313AAFA1FC14A3800A19977 /* CustomCell.swift */,
+				2313AAFC1FC14A6600A19977 /* SecondTableViewController.swift */,
+				2313AAFE1FC14A9F00A19977 /* SecondCellController.swift */,
+				2313AB001FC14AD900A19977 /* AddingViewController.swift */,
 				2313AAE91FC145F200A19977 /* Main.storyboard */,
 				2313AAEF1FC145F200A19977 /* Assets.xcassets */,
 				2313AAF11FC145F200A19977 /* LaunchScreen.storyboard */,
@@ -139,9 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2313AAE81FC145F200A19977 /* ViewController.swift in Sources */,
+				2313AAFB1FC14A3800A19977 /* CustomCell.swift in Sources */,
+				2313AB011FC14AD900A19977 /* AddingViewController.swift in Sources */,
+				2313AAE81FC145F200A19977 /* FirstTableViewController.swift in Sources */,
+				2313AAFD1FC14A6600A19977 /* SecondTableViewController.swift in Sources */,
 				2313AAE61FC145F200A19977 /* AppDelegate.swift in Sources */,
 				2313AAEE1FC145F200A19977 /* BeastList.xcdatamodeld in Sources */,
+				2313AAFF1FC14A9F00A19977 /* SecondCellController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRB2RCLKP4;
 				INFOPLIST_FILE = BeastList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.V.BeastList;
@@ -293,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRB2RCLKP4;
 				INFOPLIST_FILE = BeastList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.V.BeastList;
